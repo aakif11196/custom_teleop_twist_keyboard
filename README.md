@@ -24,8 +24,8 @@ Follow these steps to modify or add new keys for controlling your robot using th
 ### 🪜 Step-by-Step Instructions
 
 #### **1. Go to your ROS 2 workspace**
-```bash
-cd ~/ros2_ws
+```cd ~/ros2_ws```
+
 
 
 
