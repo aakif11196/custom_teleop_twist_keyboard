@@ -19,71 +19,44 @@ Follow these steps to modify or add new keys for controlling your robot using th
 
 🪜 Step-by-Step Instructions
 
-Step 1: Go to your ROS2 workspace.
-This is the main directory where your ROS2 packages are located.
+ - Step 1: Go to your ROS2 workspace.
+   This is the main directory where your ROS2 packages are located.
 
-Step 2: Open the src folder inside your workspace.
-This folder contains all your source packages.
+- Step 2: Open the src folder inside your workspace.
+  This folder contains all your source packages.
 
-Step 3: Clone this repository into the src folder (if you haven’t already done so).
-This will add the custom_teleop_twist_keyboard package to your workspace.
+- Step 3: Clone this repository into the src folder (if you haven’t already done so).
+  This will add the custom_teleop_twist_keyboard package to your workspace.
 
-Step 4: Open the package folder.
-Go to the folder named custom_teleop_twist_keyboard, and then open the subfolder with the same name inside it.
+- Step 4: Open the package folder.
+  Go to the folder named custom_teleop_twist_keyboard, and then open the subfolder with the same name inside it.
 
 Example path:
 
 ros2_ws/src/custom_teleop_twist_keyboard/custom_teleop_twist_keyboard
 
-Step 5: Find the main Python file inside this folder.
-It is usually named something like:
+- Step 5: Find the main Python file inside this folder.
+  It is usually named something like:
 
-custom_teleop_twist_keyboard.py
-
-or teleop_twist_keyboard.py
-
+custom_teleop_twist_keyboard.py or teleop_twist_keyboard.py
 This file contains all the code that defines how the keyboard keys control your robot.
 
-Step 6: Open this Python file in your code editor.
-You can use any editor such as VS Code, Atom, or Notepad++.
+- Step 6: Open this Python file in your code editor.
+ You can use any editor such as VS Code, Atom, or Notepad++.
 
-Step 7: Locate the section that defines key bindings.
-Inside the Python file, you’ll find a part where keys are mapped to robot motions.
-It usually looks like this:
+- Step 7: Locate the section that defines key bindings.
+  Inside the Python file, you’ll find a part where keys are mapped to robot motions.
 
-move_bindings = {
-    'w': (1, 0, 0, 0),   # move forward
-    's': (-1, 0, 0, 0),  # move backward
-    'a': (0, 0, 1, 0),   # turn left
-    'd': (0, 0, -1, 0),  # turn right
-}
+- Step 9: Save the file after making your changes.
 
+- Step 10: Build your workspace again so that ROS2 applies the new updates.
 
-Step 8: Add or modify keys according to your needs.
+- Step 11: Run your teleop keyboard node to test the changes.
+  When you press the newly added or modified keys, your robot should respond accordingly.
 
-To add a new key, insert a new line inside this dictionary.
-For example:
-
-'e': (0, -1, 0, 0),   # move right
-' ': (0, 0, 0, 0),    # space key for stop
-
-
-To change an existing key, update its value.
-Example:
-
-'w': (2, 0, 0, 0),    # make forward speed faster
-
-
-Step 9: Save the file after making your changes.
-
-Step 10: Build your workspace again so that ROS2 applies the new updates.
-
-Step 11: Run your teleop keyboard node to test the changes.
-When you press the newly added or modified keys, your robot should respond accordingly.
-
-Step 12: Test and verify.
-Check your robot’s movement to make sure all keys work as expected.
-If any key doesn’t respond, recheck your code changes and ensure the file was saved properly.
+- Step 12: Test and verify.
+ Check your robot’s movement to make sure all keys work as expected.
+ If any key doesn’t respond, recheck your code changes and ensure the file was saved properly.
 
 ✅ Tip:
 You can experiment with adding special functions like emergency stop, extra motion keys, or even gripper controls — just follow the same pattern used in the key bindings.
