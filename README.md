@@ -60,3 +60,6 @@ This file contains all the code that defines how the keyboard keys control your 
 
 ✅ Tip:
 You can experiment with adding special functions like emergency stop, extra motion keys, or even gripper controls — just follow the same pattern used in the key bindings.
+
+
+![image alt](https://github.com/aakif11196/custom_teleop_twist_keyboard/blob/dc4497470b95bd5abfd2528f106e27bb126993d3/Keys.jpg)
