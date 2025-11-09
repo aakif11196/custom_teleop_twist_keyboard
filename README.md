@@ -104,9 +104,10 @@ It has been customized and extended for improved usability and additional moveme
 Released under the **BSD License** see the `LICENSE` file for details.
 
 <p align="center">
-  <img src="images/custom_teleop_preview.png" alt="Custom Teleop Keyboard Example" width="800"/>
+  <img src="https://github.com/aakif11196/custom_teleop_twist_keyboard/raw/9c7ebdc69eb7e7851f73789f4ae0ca2b58400252/Keys.jpg" 
+       alt="Custom Teleop Keyboard Example" 
+       width="700">
 </p>
-
 
 
 
