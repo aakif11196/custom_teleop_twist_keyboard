@@ -1,7 +1,7 @@
 <h1 align="center" style="font-size: 48px;">🕹️ Custom Teleop Twist Keyboard</h1>
 
 **Custom Teleop Twist Keyboard** is a user-friendly **ROS 2 package** designed to make robot control simple, smooth, and fun just like playing a game.  
-This customized version of the standard `teleop_twist_keyboard` provides **intuitive key mappings** for easy robot movement in all directions — forward, backward, sideways, and diagonal.
+This customized version of the standard `teleop_twist_keyboard` provides **intuitive key mappings** for easy robot movement in all directions forward, backward, sideways, and diagonal.
 
 ---
 
@@ -105,9 +105,9 @@ Released under the **BSD License** — see the `LICENSE` file for details.
 
 
 <p align="center">
-  <img custom_teleop_twist_keyboard
-/Keys.jpg"/>
+  <img src="custom_teleop_twist_keyboard/Keys.jpg" alt="Custom Teleop Twist Keyboard Keys" width="600">
 </p>
+
 
 
 
