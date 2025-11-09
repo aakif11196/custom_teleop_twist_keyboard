@@ -105,7 +105,8 @@ Released under the **BSD License** — see the `LICENSE` file for details.
 
 
 <p align="center">
-  <img src="keys.jpg"/>
+  <img custom_teleop_twist_keyboard
+/Keys.jpg"/>
 </p>
 
 
