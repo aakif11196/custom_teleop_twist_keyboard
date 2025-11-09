@@ -101,11 +101,11 @@ ros2 run custom_teleop_twist_keyboard custom_teleop_twist_keyboard
 ### 🪪 Credits & License
 This package is based on the official ROS 2 [`teleop_twist_keyboard`](https://github.com/ros2/teleop_twist_keyboard) package by [Open Robotics](https://www.openrobotics.org/).  
 It has been customized and extended for improved usability and additional movement features.  
-Released under the **BSD License** — see the `LICENSE` file for details.
+Released under the **BSD License** see the `LICENSE` file for details.
 
 
 <p align="center">
-  <img src="custom_teleop_twist_keyboard/Keys.jpg" alt="Custom Teleop Twist Keyboard Keys" width="600">
+  <img src="[custom_teleop_twist_keyboard/Keys.jpg](https://github.com/aakif11196/custom_teleop_twist_keyboard/blob/9c7ebdc69eb7e7851f73789f4ae0ca2b58400252/Keys.jpg)" alt="Custom Teleop Twist Keyboard Keys" width="600">
 </p>
 
 
