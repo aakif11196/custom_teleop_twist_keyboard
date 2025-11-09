@@ -103,9 +103,8 @@ This package is based on the official ROS 2 [`teleop_twist_keyboard`](https://gi
 It has been customized and extended for improved usability and additional movement features.  
 Released under the **BSD License** see the `LICENSE` file for details.
 
-
 <p align="center">
-  <img src="[custom_teleop_twist_keyboard/Keys.jpg](https://github.com/aakif11196/custom_teleop_twist_keyboard/blob/9c7ebdc69eb7e7851f73789f4ae0ca2b58400252/Keys.jpg)" alt="Custom Teleop Twist Keyboard Keys" width="600">
+  <img src="images/custom_teleop_preview.png" alt="Custom Teleop Keyboard Example" width="800"/>
 </p>
 
 
