@@ -105,7 +105,7 @@ Released under the **BSD License** — see the `LICENSE` file for details.
 
 
 <p align="center">
-  <img src="images/custom_teleop_preview.png" alt="Custom Teleop Keyboard Example" width="800"/>
+  <img src="keys.jpg"/>
 </p>
 
 
